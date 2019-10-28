@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":0.05458858609199524,"y":1.0,"z":0.06897461414337158},"rotation":{"x":0.36680638790130618,"y":0.08910686522722244,"z":-0.035322412848472598,"w":0.9253465533256531},"size":4.21483850479126,"orthographic":false}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":0.0,"y":1.5199999809265137,"z":-0.9800000190734863},"rotation":{"x":0.21725380420684815,"y":0.0008769466076046228,"z":-0.00019507226534187794,"w":0.9761163592338562},"size":5.232649326324463,"orthographic":false}
+>>>>>>> parent of 7cbb0ea... 총알,발사,기관총 에셋추가

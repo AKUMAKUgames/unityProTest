@@ -1,6 +1,10 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+<<<<<<< HEAD:연습/Assets/prefab/Sphere.prefab
 --- !u!1 &2280061250505047070
+=======
+--- !u!1 &5589463632810301372
+>>>>>>> parent of 7cbb0ea... 총알,발사,기관총 에셋추가:연습/Assets/Sphere.prefab
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,10 +12,17 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD:연습/Assets/prefab/Sphere.prefab
   - component: {fileID: 976530300700975630}
   - component: {fileID: 5299068238233279455}
   - component: {fileID: 5417952632692366284}
   - component: {fileID: 6342660859623173454}
+=======
+  - component: {fileID: 4929901168783507588}
+  - component: {fileID: 311309482519395282}
+  - component: {fileID: 2344781400037173559}
+  - component: {fileID: 1333205297758641998}
+>>>>>>> parent of 7cbb0ea... 총알,발사,기관총 에셋추가:연습/Assets/Sphere.prefab
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -19,35 +30,59 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD:연습/Assets/prefab/Sphere.prefab
 --- !u!4 &976530300700975630
+=======
+--- !u!4 &4929901168783507588
+>>>>>>> parent of 7cbb0ea... 총알,발사,기관총 에셋추가:연습/Assets/Sphere.prefab
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:연습/Assets/prefab/Sphere.prefab
   m_GameObject: {fileID: 2280061250505047070}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.054588586, y: 1, z: 0.068974614}
+=======
+  m_GameObject: {fileID: 5589463632810301372}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.318, z: -0.114}
+>>>>>>> parent of 7cbb0ea... 총알,발사,기관총 에셋추가:연습/Assets/Sphere.prefab
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD:연습/Assets/prefab/Sphere.prefab
 --- !u!33 &5299068238233279455
+=======
+--- !u!33 &311309482519395282
+>>>>>>> parent of 7cbb0ea... 총알,발사,기관총 에셋추가:연습/Assets/Sphere.prefab
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:연습/Assets/prefab/Sphere.prefab
   m_GameObject: {fileID: 2280061250505047070}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &5417952632692366284
+=======
+  m_GameObject: {fileID: 5589463632810301372}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &2344781400037173559
+>>>>>>> parent of 7cbb0ea... 총알,발사,기관총 에셋추가:연습/Assets/Sphere.prefab
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:연습/Assets/prefab/Sphere.prefab
   m_GameObject: {fileID: 2280061250505047070}
+=======
+  m_GameObject: {fileID: 5589463632810301372}
+>>>>>>> parent of 7cbb0ea... 총알,발사,기관총 에셋추가:연습/Assets/Sphere.prefab
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -79,13 +114,21 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD:연습/Assets/prefab/Sphere.prefab
 --- !u!135 &6342660859623173454
+=======
+--- !u!135 &1333205297758641998
+>>>>>>> parent of 7cbb0ea... 총알,발사,기관총 에셋추가:연습/Assets/Sphere.prefab
 SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:연습/Assets/prefab/Sphere.prefab
   m_GameObject: {fileID: 2280061250505047070}
+=======
+  m_GameObject: {fileID: 5589463632810301372}
+>>>>>>> parent of 7cbb0ea... 총알,발사,기관총 에셋추가:연습/Assets/Sphere.prefab
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
