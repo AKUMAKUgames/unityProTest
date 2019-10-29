@@ -66,6 +66,7 @@
     <Compile Include="Assets\C#\Bullet.cs" />
     <Compile Include="Assets\C#\CameraMoving.cs" />
     <Compile Include="Assets\C#\EnemyCollision.cs" />
+    <Compile Include="Assets\C#\EnermyMove.cs" />
     <Compile Include="Assets\C#\Fire.cs" />
     <Compile Include="Assets\C#\Move.cs" />
     <None Include="Assets\FreeMachineGun\Shader\BDCS.shader" />

@@ -252,7 +252,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Bullet: {fileID: 2374762305412477780, guid: cda547b4210b52c4db8009f963220f89, type: 3}
   FirePos: {fileID: 812638093}
-  ani: {fileID: 0}
+  ani: {fileID: 1506123367}
 --- !u!111 &533469927
 Animation:
   m_ObjectHideFlags: 0
@@ -282,7 +282,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 80
   m_CollisionDetection: 2
 --- !u!1 &612011357 stripped
 GameObject:
@@ -318,7 +318,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!114 &612011363
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -332,6 +332,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   floor: {fileID: 1414190401}
+--- !u!114 &612011364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 612011357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7f87efe0b6c9f5459ca934981be24ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enermy: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -710,6 +723,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!111 &1506123367 stripped
+Animation:
+  m_CorrespondingSourceObject: {fileID: 11100000, guid: a71db0f05c28dbd48be777241911ffe2,
+    type: 3}
+  m_PrefabInstance: {fileID: 1938207466}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1938207466
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -720,10 +739,6 @@ PrefabInstance:
     - target: {fileID: 100008, guid: a71db0f05c28dbd48be777241911ffe2, type: 3}
       propertyPath: m_Name
       value: MachineGun_00
-      objectReference: {fileID: 0}
-    - target: {fileID: 9500000, guid: a71db0f05c28dbd48be777241911ffe2, type: 3}
-      propertyPath: m_Enabled
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: a71db0f05c28dbd48be777241911ffe2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -768,6 +783,10 @@ PrefabInstance:
     - target: {fileID: 400008, guid: a71db0f05c28dbd48be777241911ffe2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: a71db0f05c28dbd48be777241911ffe2, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11100000, guid: a71db0f05c28dbd48be777241911ffe2, type: 3}
       propertyPath: m_Animation
