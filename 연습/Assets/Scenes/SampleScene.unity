@@ -141,7 +141,6 @@ GameObject:
   - component: {fileID: 533469921}
   - component: {fileID: 533469926}
   - component: {fileID: 533469928}
-  - component: {fileID: 533469927}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -245,29 +244,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 533469920}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6b49a4aad8184f248a98cebe140c4a47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Bullet: {fileID: 2374762305412477780, guid: cda547b4210b52c4db8009f963220f89, type: 3}
   FirePos: {fileID: 812638093}
-  ani: {fileID: 1506123367}
---- !u!111 &533469927
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 533469920}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 366a27f88e688074ea34dae2294e7c8d, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!54 &533469928
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -344,7 +327,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7f87efe0b6c9f5459ca934981be24ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enermy: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -628,6 +610,11 @@ PrefabInstance:
       propertyPath: m_PlayAutomatically
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114489361866395698, guid: 0f8a471e5537f864ebdb454fe82308eb,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f8a471e5537f864ebdb454fe82308eb, type: 3}
 --- !u!1 &1414190401
@@ -723,12 +710,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!111 &1506123367 stripped
-Animation:
-  m_CorrespondingSourceObject: {fileID: 11100000, guid: a71db0f05c28dbd48be777241911ffe2,
+--- !u!1 &1934315486 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100008, guid: a71db0f05c28dbd48be777241911ffe2,
     type: 3}
   m_PrefabInstance: {fileID: 1938207466}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1934315488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1934315486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b49a4aad8184f248a98cebe140c4a47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Bullet: {fileID: 2374762305412477780, guid: cda547b4210b52c4db8009f963220f89, type: 3}
+  FirePos: {fileID: 812638093}
 --- !u!1001 &1938207466
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -784,9 +785,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9500000, guid: a71db0f05c28dbd48be777241911ffe2, type: 3}
-      propertyPath: m_Enabled
-      value: 1
+    - target: {fileID: 11100000, guid: a71db0f05c28dbd48be777241911ffe2, type: 3}
+      propertyPath: m_Animations.Array.size
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 11100000, guid: a71db0f05c28dbd48be777241911ffe2, type: 3}
       propertyPath: m_Animation
@@ -794,6 +795,30 @@ PrefabInstance:
       objectReference: {fileID: 7400000, guid: 366a27f88e688074ea34dae2294e7c8d, type: 2}
     - target: {fileID: 11100000, guid: a71db0f05c28dbd48be777241911ffe2, type: 3}
       propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11100000, guid: a71db0f05c28dbd48be777241911ffe2, type: 3}
+      propertyPath: m_Animations.Array.data[2]
+      value: 
+      objectReference: {fileID: 7400000, guid: 21fa72a79a4481d4c808a14fef57320d, type: 2}
+    - target: {fileID: 11100000, guid: a71db0f05c28dbd48be777241911ffe2, type: 3}
+      propertyPath: m_AnimatePhysics
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11100000, guid: a71db0f05c28dbd48be777241911ffe2, type: 3}
+      propertyPath: m_PlayAutomatically
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11100000, guid: a71db0f05c28dbd48be777241911ffe2, type: 3}
+      propertyPath: m_Animations.Array.data[0]
+      value: 
+      objectReference: {fileID: 7400000, guid: 366a27f88e688074ea34dae2294e7c8d, type: 2}
+    - target: {fileID: 9500000, guid: a71db0f05c28dbd48be777241911ffe2, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: a71db0f05c28dbd48be777241911ffe2, type: 3}
+      propertyPath: m_ApplyRootMotion
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
