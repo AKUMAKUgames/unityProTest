@@ -7,6 +7,7 @@ public class EnemyCollision : MonoBehaviour
     public GameObject floor;
     Animation anim;
     public const string DEATH = "Anim_Death";
+    Fire asd = new Fire();
     // Start is called before the first frame update
     void Start()
     {

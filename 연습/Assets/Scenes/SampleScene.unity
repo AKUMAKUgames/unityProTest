@@ -120,12 +120,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!95 &343545784 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 9500000, guid: a71db0f05c28dbd48be777241911ffe2,
-    type: 3}
-  m_PrefabInstance: {fileID: 1938207466}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &343545786 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400008, guid: a71db0f05c28dbd48be777241911ffe2,
@@ -147,6 +141,7 @@ GameObject:
   - component: {fileID: 533469921}
   - component: {fileID: 533469926}
   - component: {fileID: 533469928}
+  - component: {fileID: 533469927}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -257,7 +252,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Bullet: {fileID: 2374762305412477780, guid: cda547b4210b52c4db8009f963220f89, type: 3}
   FirePos: {fileID: 812638093}
-  ani: {fileID: 343545784}
+  ani: {fileID: 0}
+--- !u!111 &533469927
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 533469920}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 366a27f88e688074ea34dae2294e7c8d, type: 2}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!54 &533469928
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -711,6 +721,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MachineGun_00
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: a71db0f05c28dbd48be777241911ffe2, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: a71db0f05c28dbd48be777241911ffe2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.596
@@ -759,5 +773,9 @@ PrefabInstance:
       propertyPath: m_Animation
       value: 
       objectReference: {fileID: 7400000, guid: 366a27f88e688074ea34dae2294e7c8d, type: 2}
+    - target: {fileID: 11100000, guid: a71db0f05c28dbd48be777241911ffe2, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a71db0f05c28dbd48be777241911ffe2, type: 3}
