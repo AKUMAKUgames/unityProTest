@@ -14,6 +14,7 @@ public class Bullet : MonoBehaviour
     void Update()
     {
         transform.Translate(Vector3.forward * 1f);
-
+        Destroy(this.gameObject,10.0f);
     }
+
 }

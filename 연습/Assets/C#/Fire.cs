@@ -28,7 +28,7 @@ public class Fire : MonoBehaviour
                 
 
                 Instantiate(Bullet, FirePos.transform.position, FirePos.transform.rotation);
-                ani.Play("MachineGin_shoot");
+               
                 
                
 
