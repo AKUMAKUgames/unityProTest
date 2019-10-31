@@ -11,6 +11,7 @@ public class EnemyCollision : MonoBehaviour
     void Start()
     {
         ani = GetComponent<Animation>();
+        floor = GameObject.Find("Plane") as GameObject;
     }
 
     // Update is called once per frame

@@ -33,7 +33,7 @@ public class Fire : MonoBehaviour
             Invoke("Sleep", 0.05f);
 
         }
-        else if(!(shootlife && Input.GetMouseButton(0))) 
+        else
         { ani.enabled = false; }
 
     }
