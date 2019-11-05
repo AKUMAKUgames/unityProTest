@@ -15,7 +15,7 @@ public class Fire : MonoBehaviour
 
     void Start()
     {
-     
+        
     }
 
     // Update is called once per frame
@@ -23,32 +23,42 @@ public class Fire : MonoBehaviour
     {
         ani = this.GetComponent<Animator>();
         int reloadBullet = 30 - bulletNumber;//재장전하면 채워질 탄약 수 
-        if (Input.GetKeyDown(KeyCode.R))
+
+
+        if (Input.GetKeyDown(KeyCode.R))// R로 재장전
         {
             if (bulletNumber < 30 && bulletToT > 0) // 탄창이 풀이 아니고 잔탄있을 경우
             {
                 if (bulletToT - reloadBullet >= 0) // 잔탄이 여유로울떄 
                 {
+                    ani.enabled = true;
+                    ani.Play("MachineGun_reload");
+                    /* 입력을 2초간 받지 못하게 해야함 장전 모션 씹힘*/
                     bulletToT = bulletToT - reloadBullet;//재장전한 만큼 잔탄 감소
                     bulletNumber = bulletNumber + reloadBullet;// 탄창 채워짐 
                     Debug.Log("장전완료:" +bulletNumber+ " / "+ bulletToT);
+                    
                 }
                 else // 잔탄이 부족할때 
-                {
+                { ani.enabled = true;
+                    ani.Play("MachineGun_reload");
+                    /* 입력을 2초간 받지 못하게 해야함 장전 모션 씹힘 */
                     bulletNumber += bulletToT;
                     bulletToT = 0;
                     Debug.Log("장전완료 풀충 ㄴㄴ:" +bulletNumber+ " / "+ bulletToT);
+                   
                 }
             }
             else { Debug.Log("총알 없어"); } //탄창이 풀이거나 잔탄이 없을 경우 
         }
-        if (shootlife && Input.GetMouseButton(0) && bulletNumber>0) 
+        if (shootlife && Input.GetMouseButton(0) && bulletNumber > 0)
         {
-           
+
             ani.enabled = true;
             Instantiate(Bullet, FirePos.transform.position, FirePos.transform.rotation);
-            bulletNumber = bulletNumber-1;
-            Debug.Log("히힛 총알 발싸:"+bulletNumber+ " / "+ bulletToT );
+            bulletNumber = bulletNumber - 1;
+            if (bulletNumber == 0) { ani.enabled = false; }
+            Debug.Log("히힛 총알 발싸:" + bulletNumber + " / " + bulletToT);
             ani.Play("MachineGin_shoot");
 
             // 잠깐 쉰다
@@ -56,8 +66,15 @@ public class Fire : MonoBehaviour
             Invoke("Sleep", 0.05f);
 
         }
-        else
-        { ani.enabled = false; }
+        else if (Input.GetMouseButtonUp(0))
+        {
+            ani.enabled = false;
+        }
+        else if (Input.GetKeyDown(KeyCode.R))
+        {
+            ani.enabled = true;
+        }
+        
 
     }
     void Sleep()

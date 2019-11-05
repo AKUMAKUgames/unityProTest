@@ -10093,9 +10093,9 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 20
+  near clip plane: 30
+  far clip plane: 100
+  field of view: 26.991467
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -15260,7 +15260,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: a71db0f05c28dbd48be777241911ffe2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.596
+      value: 1.119
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: a71db0f05c28dbd48be777241911ffe2, type: 3}
       propertyPath: m_LocalPosition.y
@@ -15272,19 +15272,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: a71db0f05c28dbd48be777241911ffe2, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: -0.27059805
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: a71db0f05c28dbd48be777241911ffe2, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.7071068
+      value: 0.6532815
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: a71db0f05c28dbd48be777241911ffe2, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.27059805
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: a71db0f05c28dbd48be777241911ffe2, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7071068
+      value: 0.6532815
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: a71db0f05c28dbd48be777241911ffe2, type: 3}
       propertyPath: m_RootOrder
@@ -15292,7 +15292,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: a71db0f05c28dbd48be777241911ffe2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: -45
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: a71db0f05c28dbd48be777241911ffe2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -15301,6 +15301,18 @@ PrefabInstance:
     - target: {fileID: 400008, guid: a71db0f05c28dbd48be777241911ffe2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400008, guid: a71db0f05c28dbd48be777241911ffe2, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400008, guid: a71db0f05c28dbd48be777241911ffe2, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400008, guid: a71db0f05c28dbd48be777241911ffe2, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 11100000, guid: a71db0f05c28dbd48be777241911ffe2, type: 3}
       propertyPath: m_Animations.Array.size
