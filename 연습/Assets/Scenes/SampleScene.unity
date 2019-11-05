@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -132,6 +132,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enermy1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4723191709888396235, guid: 7481ec5c113abc24eb7e7ccc4da64a9c,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 5299964268003812766, guid: 7481ec5c113abc24eb7e7ccc4da64a9c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -140,7 +145,7 @@ PrefabInstance:
     - target: {fileID: 5299964268003812766, guid: 7481ec5c113abc24eb7e7ccc4da64a9c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.7681577e-16
+      value: 5.57
       objectReference: {fileID: 0}
     - target: {fileID: 5299964268003812766, guid: 7481ec5c113abc24eb7e7ccc4da64a9c,
         type: 3}
@@ -9986,6 +9991,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enermy1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4723191709888396235, guid: 7481ec5c113abc24eb7e7ccc4da64a9c,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 5299964268003812766, guid: 7481ec5c113abc24eb7e7ccc4da64a9c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10245,6 +10255,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Enermy1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4723191709888396235, guid: 7481ec5c113abc24eb7e7ccc4da64a9c,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 5299964268003812766, guid: 7481ec5c113abc24eb7e7ccc4da64a9c,
         type: 3}

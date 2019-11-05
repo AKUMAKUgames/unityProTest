@@ -55,7 +55,8 @@ public class Fire : MonoBehaviour
         {
 
             ani.enabled = true;
-            Instantiate(Bullet, FirePos.transform.position, FirePos.transform.rotation);
+            GameObject go = Instantiate(Bullet, FirePos.transform.position, FirePos.transform.rotation) as GameObject;
+            
             bulletNumber = bulletNumber - 1;
             if (bulletNumber == 0) { ani.enabled = false; }
             Debug.Log("히힛 총알 발싸:" + bulletNumber + " / " + bulletToT);
