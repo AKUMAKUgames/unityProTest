@@ -141,7 +141,7 @@ GameObject:
   - component: {fileID: 381177411453741549}
   - component: {fileID: 381177411453741546}
   m_Layer: 0
-  m_Name: StoneMonster (1) Variant 1
+  m_Name: Enermy1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -209,7 +209,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 80
   m_CollisionDetection: 1
 --- !u!135 &381177411453741551
 SphereCollider:
@@ -236,7 +236,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8cb0e3bd422088a4bacd7eab556489d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floor: {fileID: 0}
 --- !u!114 &381177411453741546
 MonoBehaviour:
   m_ObjectHideFlags: 0

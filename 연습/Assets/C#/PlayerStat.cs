@@ -19,7 +19,7 @@ public class PlayerStat : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
-            damage = 10;
+            damage = 15;
             gun.SetActive(true);
             machineGun.SetActive(false);
             
