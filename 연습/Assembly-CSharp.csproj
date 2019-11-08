@@ -62,6 +62,8 @@
      <Compile Include="Assets\C#\EnermyMove.cs" />
      <Compile Include="Assets\C#\Fire.cs" />
      <Compile Include="Assets\C#\Move.cs" />
+     <Compile Include="Assets\C#\move_2.cs" />
+     <Compile Include="Assets\C#\move_3.cs" />
      <Compile Include="Assets\C#\pistolfire.cs" />
      <Compile Include="Assets\C#\PlayerStat.cs" />
      <Compile Include="Assets\C#\StartScene.cs" />
