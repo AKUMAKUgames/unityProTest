@@ -70,6 +70,8 @@
     <Compile Include="Assets\C#\EnermyMove.cs" />
     <Compile Include="Assets\C#\Fire.cs" />
     <Compile Include="Assets\C#\Move.cs" />
+    <Compile Include="Assets\C#\move_2.cs" />
+    <Compile Include="Assets\C#\move_3.cs" />
     <Compile Include="Assets\C#\NewBehaviourScript.cs" />
     <Compile Include="Assets\C#\pistolfire.cs" />
     <Compile Include="Assets\C#\PlayerStat.cs" />
@@ -106,8 +108,14 @@
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/wltjd/OneDrive/문서/GitHub/unityProTest/연습/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.ProGrids">
+      <HintPath>C:/Users/wltjd/OneDrive/문서/GitHub/unityProTest/연습/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>C:/Users/wltjd/OneDrive/문서/GitHub/unityProTest/연습/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProGrids.Editor">
+      <HintPath>C:/Users/wltjd/OneDrive/문서/GitHub/unityProTest/연습/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/wltjd/OneDrive/문서/GitHub/unityProTest/연습/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -121,23 +129,11 @@
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>C:/Users/wltjd/OneDrive/문서/GitHub/unityProTest/연습/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/wltjd/OneDrive/문서/GitHub/unityProTest/연습/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/wltjd/OneDrive/문서/GitHub/unityProTest/연습/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/wltjd/OneDrive/문서/GitHub/unityProTest/연습/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProGrids">
-      <HintPath>C:/Users/wltjd/OneDrive/문서/GitHub/unityProTest/연습/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProGrids.Editor">
-      <HintPath>C:/Users/wltjd/OneDrive/문서/GitHub/unityProTest/연습/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
       <HintPath>C:/Users/wltjd/OneDrive/문서/GitHub/unityProTest/연습/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>C:/Users/wltjd/OneDrive/문서/GitHub/unityProTest/연습/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
       <HintPath>C:/Users/wltjd/OneDrive/문서/GitHub/unityProTest/연습/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
@@ -147,6 +143,12 @@
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
       <HintPath>C:/Users/wltjd/OneDrive/문서/GitHub/unityProTest/연습/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>C:/Users/wltjd/OneDrive/문서/GitHub/unityProTest/연습/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>C:/Users/wltjd/OneDrive/문서/GitHub/unityProTest/연습/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/unity/2019.2.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
