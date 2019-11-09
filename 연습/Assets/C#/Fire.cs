@@ -8,7 +8,7 @@ public class Fire : MonoBehaviour
     public GameObject Bullet;
     public Transform FirePos;
     Animator ani;
-
+    public ParticleSystem muzzle;
     public AudioClip shot;
     public AudioClip rel;
 
@@ -78,11 +78,11 @@ public class Fire : MonoBehaviour
             Debug.Log("히힛 총알 발싸:" + bulletNumber + " / " + bulletToT);
             Audio.Play();
             ani.Play("MachineGin_shoot");
-            
+            muzzle.Play();
             // 잠깐 쉰다
             shootlife = false;
             Invoke("Sleep", 0.05f);
-
+            
         }
         else if (Input.GetMouseButtonUp(0))
         {

@@ -6,7 +6,7 @@ public class pistolfire : MonoBehaviour
 {
     public GameObject Bullet;
     public Transform FirePos;
-
+    public ParticleSystem muzzle;
     public AudioClip shot;
     public AudioClip rel;
 
@@ -70,7 +70,7 @@ public class pistolfire : MonoBehaviour
             GameObject go = Instantiate(Bullet, FirePos.transform.position, FirePos.transform.rotation) as GameObject;
             pistol_Sound.Play();
             bulletNumber = bulletNumber - 1;
-          
+            muzzle.Play();
             Debug.Log("히힛 총알 발싸:" + bulletNumber + " / " + bulletToT);
           
 
