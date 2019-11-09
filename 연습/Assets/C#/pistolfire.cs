@@ -6,7 +6,8 @@ public class pistolfire : MonoBehaviour
 {
     public GameObject Bullet;
     public Transform FirePos;
-   
+    public ParticleSystem Muzzle;
+
     bool shootlife = true; // 총알을 쓸 수 있는 상태다
     int bulletNumber = 6; // 1탄창에 들어있는 총알 수 (나중에 바꾸든가)
     int bulletToT = 36; // 남은 탄약
@@ -65,7 +66,7 @@ public class pistolfire : MonoBehaviour
             bulletNumber = bulletNumber - 1;
           
             Debug.Log("히힛 총알 발싸:" + bulletNumber + " / " + bulletToT);
-          
+            Muzzle.Play();
 
             // 잠깐 쉰다
             shootlife = false;
@@ -75,6 +76,7 @@ public class pistolfire : MonoBehaviour
      
 
     }
+    
     void Sleep()
     {
         shootlife = true;
