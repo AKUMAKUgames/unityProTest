@@ -6,13 +6,20 @@ public class EnemyCollision : MonoBehaviour
 {
     
     Animation ani;
-    int health = 30;
+   float health = 30.0f;
+    public GameObject hpBar;
+    const float health_fixed = 30.0f;
+    float full;
+   
+
+    
     
     // Start is called before the first frame update
     void Start()
     {
       
         ani = GetComponent<Animation>();
+        full = hpBar.transform.localScale.x;
     }
  
     // Update is called once per frame
@@ -29,9 +36,12 @@ public class EnemyCollision : MonoBehaviour
 
             Destroy(col.gameObject);
             health -= bulletPower;
+          
+            hpBar.transform.localScale = new Vector3(health/health_fixed * full, 0.1f, 0.5f);
             
             if (health <= 0)
             {
+                hpBar.SetActive(false);
                 Destroy(this.gameObject, 0.5f);
                 ani.Play("Anim_Death");
             }

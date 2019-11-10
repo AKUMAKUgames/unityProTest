@@ -6,12 +6,13 @@ public class PlayerStat : MonoBehaviour
 {
     public GameObject gun;
     public GameObject machineGun;
-    public int damage = 0;
+    public int damage;
     
     // Start is called before the first frame update
     void Start()
     {
-        
+        gun.SetActive(false);
+        machineGun.SetActive(false);
     }
 
     // Update is called once per frame

@@ -81,7 +81,7 @@ public class Fire : MonoBehaviour
             muzzle.Play();
             // 잠깐 쉰다
             shootlife = false;
-            Invoke("Sleep", 0.05f);
+            Invoke("Sleep", 0.07f);
             
         }
         else if (Input.GetMouseButtonUp(0))
