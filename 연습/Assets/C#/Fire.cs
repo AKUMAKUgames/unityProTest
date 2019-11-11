@@ -11,7 +11,7 @@ public class Fire : MonoBehaviour
     public ParticleSystem muzzle;
     public AudioClip shot;
     public AudioClip rel;
-
+    public Texture2D mg;
     AudioSource Audio;
     bool shootlife = true; // 총알을 쓸 수 있는 상태다
     int bulletNumber = 30; // 1탄창에 들어있는 총알 수 (나중에 바꾸든가)
@@ -102,5 +102,10 @@ public class Fire : MonoBehaviour
     void SleepLoad()
     {
         loadTIme = true;
+    }
+    void OnGUI()
+    {
+        GUI.DrawTexture(new Rect(0, Screen.height - Screen.height * 0.2f, Screen.width * 0.2f, Screen.height * 0.2f), mg);
+        GUI.Label(new Rect(Screen.width * 0.2f - 40, Screen.height - 25, Screen.width * 0.2f, Screen.height * 0.2f), bulletNumber + " / " + bulletToT);
     }
 }
