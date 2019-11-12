@@ -10,6 +10,7 @@ public class EnemyCollision : MonoBehaviour
     public GameObject hpBar;
     const float health_fixed = 30.0f;
     float full;
+    public ParticleSystem par;
    
 
     
@@ -46,7 +47,7 @@ public class EnemyCollision : MonoBehaviour
                 ani.Play("Anim_Death");
             }
 
-            
+            par.Play();
 
 
         }
