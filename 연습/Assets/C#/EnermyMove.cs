@@ -22,6 +22,7 @@ public class EnermyMove : MonoBehaviour
        
         dir = Player.transform.position - this.transform.position;
         transform.position += dir * 0.50f * Time.deltaTime;
+        this.transform.LookAt(Player.transform);
         
     }
 }

@@ -41,7 +41,7 @@ public class Fire : MonoBehaviour
                 {  
                     ani.enabled = true;
                    
-//                    Audio.Play();
+                    Audio.Play();
                     /* 입력을 2초간 받지 못하게 해야함 장전 모션 씹힘*/
                     Invoke("SleepLoad", 2.0f);
                   
