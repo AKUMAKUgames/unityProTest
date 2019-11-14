@@ -1,28 +1,25 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.AI;
 public class EnermyMove : MonoBehaviour
 {
-    GameObject Player;
-    Vector3 dir;
+    public float rot_angle = 15.0f;
+    public UnityEngine.AI.NavMeshAgent nav;
+    public GameObject target;
    
     // Start is called before the first frame update
-    void Start()
-    {
-       
-        Player = GameObject.Find("Player");
-         dir = Player.transform.position - this.transform.position;
-       
-    }
+    
 
     // Update is called once per frame
     void Update()
     {
-       
-        dir = Player.transform.position - this.transform.position;
-        transform.position += dir * 0.50f * Time.deltaTime;
-        this.transform.LookAt(Player.transform);
+
+        MoveToTarget();
         
+    }
+    void MoveToTarget()
+    {
+        nav.SetDestination(target.transform.position);
     }
 }
