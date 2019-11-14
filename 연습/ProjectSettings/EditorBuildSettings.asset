@@ -9,6 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes/GameStart.unity
     guid: 52b994822c5b58846a2d0700ee7c1807
   - enabled: 1
+    path: Assets/Scenes/IceMap.unity
+    guid: def7ed299e848424f886b8a77e3f2278
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: 466ebca4e064c2b44aa918a7cd04aeb5
   m_configObjects: {}
