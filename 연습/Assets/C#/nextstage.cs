@@ -17,17 +17,17 @@ public class nextstage : MonoBehaviour
     void Update()
     {
 
-        timer += Time.deltaTime;
+ //       timer += Time.deltaTime;
 
-        if (timer > waitingTime)
-        {
+//        if (timer > waitingTime)
+//        {
             if (null == GameObject.FindWithTag("monster"))
             {
                 SceneManager.LoadScene(1);
             }
 
-            timer = 0;
-        }
+   //         timer = 0;
+    //    }
        
     
     }
