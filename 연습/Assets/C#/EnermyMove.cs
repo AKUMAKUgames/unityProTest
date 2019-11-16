@@ -14,7 +14,7 @@ public class EnermyMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        target = GameObject.FindWithTag("Player");
         MoveToTarget();
         
     }

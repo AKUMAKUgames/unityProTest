@@ -83,11 +83,13 @@
     <Compile Include="Assets\C#\icemove_2.cs" />
     <Compile Include="Assets\C#\icemove_3.cs" />
     <Compile Include="Assets\C#\Move.cs" />
+    <Compile Include="Assets\C#\move_2.cs" />
     <Compile Include="Assets\C#\move_3.cs" />
     <Compile Include="Assets\C#\nextstage.cs" />
     <Compile Include="Assets\C#\pistolfire.cs" />
     <Compile Include="Assets\C#\PlayerStat.cs" />
     <Compile Include="Assets\C#\screen.cs" />
+    <Compile Include="Assets\C#\spawnEnermy.cs" />
     <Compile Include="Assets\C#\StartScene.cs" />
     <Compile Include="Assets\EffectExamples\Shared\Scripts\DecalDestroyer.cs" />
     <Compile Include="Assets\EffectExamples\Shared\Scripts\ExtinguishableFire.cs" />
@@ -216,6 +218,7 @@
     <None Include="Assets\Environment 2\Other\Effects\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
     <None Include="Assets\Particle Ribbon by Moonflower Carnivore\readme_Simple_Particle_Ribbon.txt" />
     <None Include="Assets\Environment 2\Other\Effects\ImageEffects\Shaders\EdgeDetectNormals.shader" />
+    <None Include="Assets\Samples\Terrain Tools\0.1.0-preview\Terrain Assets\ThirdPartyNotices.txt" />
     <None Include="Assets\Environment 2\Other\Effects\ImageEffects\Shaders\PrepareSunShaftsBlur.shader" />
     <None Include="Assets\Environment 2\Other\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
     <None Include="Assets\Environment 2\Other\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />

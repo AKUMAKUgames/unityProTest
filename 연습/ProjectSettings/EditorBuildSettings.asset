@@ -12,8 +12,8 @@ EditorBuildSettings:
     path: Assets/Scenes/IceMap.unity
     guid: def7ed299e848424f886b8a77e3f2278
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/Scenes/timeLimit.unity
+    guid: b6c70c5fc52cc3746869c60dc6320676
   - enabled: 1
     path: Assets/Scenes/GameOver.unity
     guid: 466ebca4e064c2b44aa918a7cd04aeb5
