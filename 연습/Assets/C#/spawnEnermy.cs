@@ -25,7 +25,7 @@ public class spawnEnermy : MonoBehaviour
             {   //남아있으면 게임오버
                 if (null != GameObject.FindWithTag("monster"))
                 {
-                    SceneManager.LoadScene(3);
+                    SceneManager.LoadScene("GameOver");
                 }
                 else
                 {

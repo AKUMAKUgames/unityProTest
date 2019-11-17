@@ -23,7 +23,7 @@ public class nextstage : MonoBehaviour
 //        {
             if (null == GameObject.FindWithTag("monster"))
             {
-                SceneManager.LoadScene(1);
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
             }
 
    //         timer = 0;

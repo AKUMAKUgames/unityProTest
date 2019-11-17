@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028381, g: 0.22571398, b: 0.3069224, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028364, g: 0.22571364, b: 0.306922, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -172,6 +172,18 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1344124664}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &296358018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 296358017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84d092f2894d24e41b2979c51bc3efd3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &346584787
 GameObject:
   m_ObjectHideFlags: 0
@@ -197,7 +209,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 346584787}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -25.7, y: 0, z: 20.2}
+  m_LocalPosition: {x: -20.3, y: 0, z: 10.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -547,6 +559,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 712812909611931710, guid: b855c0b40411ba749bd349202f9221ba,
+        type: 3}
+      propertyPath: pst
+      value: 
+      objectReference: {fileID: 2800000, guid: a2e2a15449701a74c80eadacc8306f75, type: 3}
+    - target: {fileID: 712812910545005527, guid: b855c0b40411ba749bd349202f9221ba,
+        type: 3}
+      propertyPath: mg
+      value: 
+      objectReference: {fileID: 2800000, guid: b4943e7ebba743149b783a37269652cc, type: 3}
+    - target: {fileID: 712812909544475970, guid: b855c0b40411ba749bd349202f9221ba,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b855c0b40411ba749bd349202f9221ba, type: 3}
