@@ -72,8 +72,9 @@
      <Compile Include="Assets\C#\EnermyMove.cs" />
      <Compile Include="Assets\C#\Fire.cs" />
      <Compile Include="Assets\C#\gameover.cs" />
-     <Compile Include="Assets\C#\icemove_2.cs" />
-     <Compile Include="Assets\C#\icemove_3.cs" />
+     <Compile Include="Assets\C#\ice\IceGUI.cs" />
+     <Compile Include="Assets\C#\ice\icemove_2.cs" />
+     <Compile Include="Assets\C#\ice\icemove_3.cs" />
      <Compile Include="Assets\C#\Move.cs" />
      <Compile Include="Assets\C#\move_2.cs" />
      <Compile Include="Assets\C#\move_3.cs" />

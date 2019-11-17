@@ -7,7 +7,7 @@ public class spawnEnermy : MonoBehaviour
 {
     public GameObject enermy;
     public float intervar = 1.0f;
-    public float limit = 0.0f;
+     float limit = 0.0f;
     // Start is called before the first frame update
     IEnumerator Start()
     {   //16초동안 반복
@@ -36,9 +36,15 @@ public class spawnEnermy : MonoBehaviour
         }
 
         // Update is called once per frame
-        void Update()
+       
+       
+    }
+    void Update()
         {
             
         }
+    void OnGUI()
+    {
+        GUI.Label(new Rect(Screen.width/2 - 40,25, Screen.width * 0.2f, Screen.height * 0.2f),"시간내 모든적 섬멸"+"/"+(16-limit).ToString());
     }
 }
