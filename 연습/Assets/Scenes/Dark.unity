@@ -32,7 +32,7 @@ RenderSettings:
   m_FlareFadeSpeed: 3
   m_HaloTexture: {fileID: 0}
   m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
-  m_DefaultReflectionMode: 0
+  m_DefaultReflectionMode: 1
   m_DefaultReflectionResolution: 128
   m_ReflectionBounces: 1
   m_ReflectionIntensity: 1
@@ -3402,11 +3402,6 @@ PrefabInstance:
       propertyPath: mg
       value: 
       objectReference: {fileID: 2800000, guid: b4943e7ebba743149b783a37269652cc, type: 3}
-    - target: {fileID: 712812910084079316, guid: b855c0b40411ba749bd349202f9221ba,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 712812910084079317, guid: b855c0b40411ba749bd349202f9221ba,
         type: 3}
       propertyPath: m_Material
@@ -3416,11 +3411,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Enabled
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 712812909544452194, guid: b855c0b40411ba749bd349202f9221ba,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 712812909544304994, guid: b855c0b40411ba749bd349202f9221ba,
         type: 3}
@@ -3441,6 +3431,16 @@ PrefabInstance:
         type: 3}
       propertyPath: speed
       value: 800
+      objectReference: {fileID: 0}
+    - target: {fileID: 712812910084079316, guid: b855c0b40411ba749bd349202f9221ba,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 712812909544452194, guid: b855c0b40411ba749bd349202f9221ba,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b855c0b40411ba749bd349202f9221ba, type: 3}
