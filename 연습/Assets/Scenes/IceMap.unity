@@ -162,6 +162,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: WinterIceTreePineShort _x2 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 98096134, guid: 80059089911c3984e842c36e5b0b4a6b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 98096134, guid: 80059089911c3984e842c36e5b0b4a6b, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 98096137, guid: 80059089911c3984e842c36e5b0b4a6b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.7
@@ -324,6 +332,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: SnowLine_v2
       objectReference: {fileID: 0}
+    - target: {fileID: 6998977498402214568, guid: cb3d8382d5dedbf44ae04e8cf1dff165,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998977498402214568, guid: cb3d8382d5dedbf44ae04e8cf1dff165,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7046660623063356204, guid: cb3d8382d5dedbf44ae04e8cf1dff165,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -362,7 +380,7 @@ PrefabInstance:
     - target: {fileID: 7046660623063356204, guid: cb3d8382d5dedbf44ae04e8cf1dff165,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7046660623063356204, guid: cb3d8382d5dedbf44ae04e8cf1dff165,
         type: 3}
@@ -396,6 +414,14 @@ PrefabInstance:
     - target: {fileID: 98096134, guid: 80059089911c3984e842c36e5b0b4a6b, type: 3}
       propertyPath: m_Name
       value: WinterIceTreePineShort _x2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 98096134, guid: 80059089911c3984e842c36e5b0b4a6b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 98096134, guid: 80059089911c3984e842c36e5b0b4a6b, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 98096137, guid: 80059089911c3984e842c36e5b0b4a6b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -454,6 +480,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SnowLine (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1873835777211051758, guid: b68f35a8e233b8d43b5842a01ae90467,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1873835777211051758, guid: b68f35a8e233b8d43b5842a01ae90467,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4259247137067764431, guid: b68f35a8e233b8d43b5842a01ae90467,
         type: 3}
@@ -606,7 +642,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &747401065
 PrefabInstance:
@@ -728,6 +764,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: SnowCorner_v3 Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 964731078925365203, guid: cf3819f75ef5c31478aec5f11bff25f0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 964731078925365203, guid: cf3819f75ef5c31478aec5f11bff25f0,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5965512802715271476, guid: cf3819f75ef5c31478aec5f11bff25f0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -766,7 +812,7 @@ PrefabInstance:
     - target: {fileID: 5965512802715271476, guid: cf3819f75ef5c31478aec5f11bff25f0,
         type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5965512802715271476, guid: cf3819f75ef5c31478aec5f11bff25f0,
         type: 3}
@@ -801,6 +847,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SnowLine (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1873835777211051758, guid: b68f35a8e233b8d43b5842a01ae90467,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1873835777211051758, guid: b68f35a8e233b8d43b5842a01ae90467,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4259247137067764431, guid: b68f35a8e233b8d43b5842a01ae90467,
         type: 3}
@@ -840,7 +896,7 @@ PrefabInstance:
     - target: {fileID: 4259247137067764431, guid: b68f35a8e233b8d43b5842a01ae90467,
         type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 4259247137067764431, guid: b68f35a8e233b8d43b5842a01ae90467,
         type: 3}
@@ -980,6 +1036,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: WinterGroundDirt
       objectReference: {fileID: 0}
+    - target: {fileID: 3864526899027060178, guid: c637cd4f75dfdab4b911196120e6c53e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3864526899027060178, guid: c637cd4f75dfdab4b911196120e6c53e,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3153766523624377646, guid: c637cd4f75dfdab4b911196120e6c53e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1018,7 +1084,7 @@ PrefabInstance:
     - target: {fileID: 3153766523624377646, guid: c637cd4f75dfdab4b911196120e6c53e,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3153766523624377646, guid: c637cd4f75dfdab4b911196120e6c53e,
         type: 3}
@@ -1260,6 +1326,14 @@ PrefabInstance:
     - target: {fileID: 98096134, guid: 80059089911c3984e842c36e5b0b4a6b, type: 3}
       propertyPath: m_Name
       value: WinterIceTreePineShort _x2 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 98096134, guid: 80059089911c3984e842c36e5b0b4a6b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 98096134, guid: 80059089911c3984e842c36e5b0b4a6b, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 98096137, guid: 80059089911c3984e842c36e5b0b4a6b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1539,7 +1613,7 @@ PrefabInstance:
     - target: {fileID: 712812910084079314, guid: b855c0b40411ba749bd349202f9221ba,
         type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 712812910084079314, guid: b855c0b40411ba749bd349202f9221ba,
         type: 3}
@@ -1699,6 +1773,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: WinterIceTreePineShort _x2 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 98096134, guid: 80059089911c3984e842c36e5b0b4a6b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 98096134, guid: 80059089911c3984e842c36e5b0b4a6b, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 98096137, guid: 80059089911c3984e842c36e5b0b4a6b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -12
@@ -1757,6 +1839,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: SnowCorner_v3 Variant (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 964731078925365203, guid: cf3819f75ef5c31478aec5f11bff25f0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 964731078925365203, guid: cf3819f75ef5c31478aec5f11bff25f0,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5965512802715271476, guid: cf3819f75ef5c31478aec5f11bff25f0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1795,7 +1887,7 @@ PrefabInstance:
     - target: {fileID: 5965512802715271476, guid: cf3819f75ef5c31478aec5f11bff25f0,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 5965512802715271476, guid: cf3819f75ef5c31478aec5f11bff25f0,
         type: 3}
@@ -2058,6 +2150,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: WinterIceTreePineShort _x2
       objectReference: {fileID: 0}
+    - target: {fileID: 98096134, guid: 80059089911c3984e842c36e5b0b4a6b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 98096134, guid: 80059089911c3984e842c36e5b0b4a6b, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 98096137, guid: 80059089911c3984e842c36e5b0b4a6b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 24.152458
@@ -2088,7 +2188,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 98096137, guid: 80059089911c3984e842c36e5b0b4a6b, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 98096137, guid: 80059089911c3984e842c36e5b0b4a6b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2115,6 +2215,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: WinterGroundDirtSnow
+      objectReference: {fileID: 0}
+    - target: {fileID: 8844565396820136871, guid: 28d4446302d78204d90c8d414aa103bc,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8844565396820136871, guid: 28d4446302d78204d90c8d414aa103bc,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2052688572585328947, guid: 28d4446302d78204d90c8d414aa103bc,
         type: 3}
@@ -2154,7 +2264,7 @@ PrefabInstance:
     - target: {fileID: 2052688572585328947, guid: 28d4446302d78204d90c8d414aa103bc,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2052688572585328947, guid: 28d4446302d78204d90c8d414aa103bc,
         type: 3}
