@@ -106,6 +106,6 @@ public class Fire : MonoBehaviour
     void OnGUI()
     {
         GUI.DrawTexture(new Rect(0, Screen.height - Screen.height * 0.2f, Screen.width * 0.2f, Screen.height * 0.2f), mg);
-        GUI.Label(new Rect(Screen.width * 0.2f - 40, Screen.height - 25, Screen.width * 0.2f, Screen.height * 0.2f), bulletNumber + " / " + bulletToT);
+        GUI.Label(new Rect(Screen.width * 0.2f - 50, Screen.height - 25, Screen.width * 0.2f, Screen.height * 0.2f), bulletNumber + " / " + bulletToT);
     }
 }
