@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class EnemyCollision : MonoBehaviour
 {
     
@@ -44,14 +44,18 @@ public class EnemyCollision : MonoBehaviour
             {
                 hpBar.SetActive(false);
                 Destroy(this.gameObject, 0.5f);
+                
                 ani.Play("Anim_Death");
             }
-
             par.Play();
 
-
         }
-        
+        if (col.gameObject.tag == "Player")
+        {
+            Destroy(col.gameObject);
+            SceneManager.LoadScene(4);
+        }
+
     }
 
 }

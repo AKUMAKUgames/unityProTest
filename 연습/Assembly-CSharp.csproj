@@ -93,6 +93,7 @@
     <Compile Include="Assets\C#\screen.cs" />
     <Compile Include="Assets\C#\spawnEnermy.cs" />
     <Compile Include="Assets\C#\StartScene.cs" />
+    <Compile Include="Assets\C#\wp.cs" />
     <Compile Include="Assets\EffectExamples\Shared\Scripts\DecalDestroyer.cs" />
     <Compile Include="Assets\EffectExamples\Shared\Scripts\ExtinguishableFire.cs" />
     <Compile Include="Assets\EffectExamples\Shared\Scripts\GunAim.cs" />
