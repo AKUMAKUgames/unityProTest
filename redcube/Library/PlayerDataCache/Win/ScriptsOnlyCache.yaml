@@ -541,6 +541,57 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 1953259897
       Script: {instanceID: 0}
+    Assets/Scenes/tutoria.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 9912}
+    - Class: 114
+      Script: {instanceID: 10126}
+    - Class: 114
+      Script: {instanceID: 10666}
+    - Class: 114
+      Script: {instanceID: 11708}
+    - Class: 114
+      Script: {instanceID: 11922}
+    - Class: 114
+      Script: {instanceID: 12146}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
     Assets/Scenes/vic/Victory.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -1630,10 +1681,11 @@ ScriptsOnlyBuild:
   platform: 5
   scenePathNames:
   - Assets/Scenes/GameStart.unity
+  - Assets/Scenes/tutoria.unity
   - Assets/Scenes/IceMap.unity
   - Assets/Scenes/timeLimit.unity
   - Assets/Scenes/Dark.unity
   - Assets/Scenes/boss.unity
   - Assets/Scenes/vic/Victory.unity
   - Assets/Scenes/GameOver.unity
-  playerPath: "C:/Users/Owner/Desktop/20165305_05/\uC5F0\uC2B5.exe"
+  playerPath: "C:/Users/Owner/Documents/GitHub/unityProTest/Game_build/\uC5F0\uC2B5.exe"

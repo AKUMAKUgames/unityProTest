@@ -22,7 +22,7 @@ public class bossSc : MonoBehaviour
     {
         timer = 0.0f;
         waitingTime = 10;
-        
+        health = 600.0f;
         nav = GetComponent<NavMeshAgent>();
         ani = GetComponent<Animator>();
     }
@@ -115,7 +115,7 @@ public class bossSc : MonoBehaviour
         if (col.gameObject.tag == "Player")
         {
             Destroy(col.gameObject);
-            SceneManager.LoadScene(6);
+            SceneManager.LoadScene(7);
         }
         
     }

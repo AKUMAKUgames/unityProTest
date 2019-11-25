@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/GameStart.unity
     guid: 52b994822c5b58846a2d0700ee7c1807
   - enabled: 1
+    path: Assets/Scenes/tutoria.unity
+    guid: 02acf054858cfaa46b81fd3807f7972d
+  - enabled: 1
     path: Assets/Scenes/IceMap.unity
     guid: def7ed299e848424f886b8a77e3f2278
   - enabled: 1

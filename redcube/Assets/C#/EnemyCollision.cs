@@ -53,7 +53,7 @@ public class EnemyCollision : MonoBehaviour
         if (col.gameObject.tag == "Player")
         {
            
-            SceneManager.LoadScene(6);
+            SceneManager.LoadScene(7);
         }
 
     }

@@ -21,7 +21,7 @@ public class wp : MonoBehaviour
             if (col.gameObject.tag == "Player")
         {
             Destroy(col.gameObject);
-            SceneManager.LoadScene(6);
+            SceneManager.LoadScene(7);
         }
                
     
