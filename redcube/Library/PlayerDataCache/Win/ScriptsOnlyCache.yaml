@@ -10,6 +10,7 @@ ScriptsOnlyBuild:
     - Fire
     - IceGUI
     - PlayerStat
+    - Readme
     - StartScene
     - bossSc
     - darkGUI
@@ -37,7 +38,6 @@ ScriptsOnlyBuild:
     - TMPro.TextMeshPro
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
-    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
@@ -1688,4 +1688,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/boss.unity
   - Assets/Scenes/vic/Victory.unity
   - Assets/Scenes/GameOver.unity
-  playerPath: "C:/Users/Owner/Documents/GitHub/unityProTest/Game_build/\uC5F0\uC2B5.exe"
+  playerPath: C:/Users/Owner/Documents/GitHub/unityProTest/Game_build/redcube.exe
