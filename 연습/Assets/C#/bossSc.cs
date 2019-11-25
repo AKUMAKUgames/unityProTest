@@ -12,7 +12,7 @@ public class bossSc : MonoBehaviour
     GameObject bossNav;
     public NavMeshAgent nav;
 
-    float health = 600.0f;
+   public static float health = 600.0f;
     float timer;
     int waitingTime;
     float pattern = 0.0f;
@@ -115,7 +115,7 @@ public class bossSc : MonoBehaviour
         if (col.gameObject.tag == "Player")
         {
             Destroy(col.gameObject);
-            SceneManager.LoadScene(4);
+            SceneManager.LoadScene(6);
         }
         
     }
