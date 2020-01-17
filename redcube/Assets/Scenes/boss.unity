@@ -370,6 +370,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -94.728004
       objectReference: {fileID: 0}
+    - target: {fileID: 493888, guid: 8b6b9ab8b6f2cea43963ea69decb1863, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 493888, guid: 8b6b9ab8b6f2cea43963ea69decb1863, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 493888, guid: 8b6b9ab8b6f2cea43963ea69decb1863, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.16
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b6b9ab8b6f2cea43963ea69decb1863, type: 3}
 --- !u!1001 &54423147
@@ -551,6 +563,25 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 212808036}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &243197555 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 182376, guid: 8b6b9ab8b6f2cea43963ea69decb1863,
+    type: 3}
+  m_PrefabInstance: {fileID: 6235546}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &243197559
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 243197555}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.8072561, y: 0.40158787, z: 2.4410486}
+  m_Center: {x: -0.00000047683716, y: -0.00000031792138, z: 0.73137057}
 --- !u!4 &277632813 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4162486761845184, guid: 8732d563a511d834e823ac895b8a4004,
@@ -969,19 +1000,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 6235546}
   m_PrefabAsset: {fileID: 0}
---- !u!65 &509874453
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 509874451}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.72281194, y: 0.48670352, z: 1.2873386}
-  m_Center: {x: -1.5, y: -0.6613657, z: -0.2519312}
 --- !u!54 &509874454
 Rigidbody:
   m_ObjectHideFlags: 0

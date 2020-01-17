@@ -403,15 +403,15 @@ RectTransform:
   m_GameObject: {fileID: 1704416926}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.0943763, y: 2.9427102, z: 1.2378}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1382897548}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3, y: 0}
-  m_SizeDelta: {x: 160, y: 90}
+  m_AnchoredPosition: {x: -2, y: -13}
+  m_SizeDelta: {x: 800, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1704416928
 MonoBehaviour:
@@ -435,19 +435,20 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 0
+    m_MinSize: 0
+    m_MaxSize: 70
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uC22B\uC790 1,2 \uBB34\uAE30\uBCC0\uACBD \n\uC774\uB3D9 WASD \uBC1C\uC2F8
-    \uC67C\uD074\uB9AD\n\n\uC544\uBB34\uD0A4\uB098 \uB20C\uB7EC \uC9C4\uD589 "
+  m_Text: "\uC22B\uC790 1,2 \uBB34\uAE30\uBCC0\uACBD \n\uC774\uB3D9 WASD \n\uBC1C\uC0AC
+    \uC67C\uD074\uB9AD\n\uC7AC\uC7A5\uC804 R\n\uC81C\uC791:KSH,JSE \uCCAB \uC791\uD488\nver
+    1.0.99.0\n\n\n"
 --- !u!222 &1704416929
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -507,7 +508,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 7dcf8ba20806e64459448b15b6c29ac9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

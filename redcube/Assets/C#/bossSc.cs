@@ -21,7 +21,7 @@ public class bossSc : MonoBehaviour
     void Start()
     {
         timer = 0.0f;
-        waitingTime = 10;
+        waitingTime = 7;
         health = 600.0f;
         nav = GetComponent<NavMeshAgent>();
         ani = GetComponent<Animator>();
@@ -34,7 +34,7 @@ public class bossSc : MonoBehaviour
 
         distance = Vector3.Distance(player.transform.position, boss.transform.position);
         
-        if (distance < 5.0f)
+        if (distance < 10.0f)
         {
             pattern=Random.Range(0.0f, 4.0f);
             
