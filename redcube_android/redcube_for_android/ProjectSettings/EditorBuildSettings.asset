@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/GameStart.unity
+    guid: 52b994822c5b58846a2d0700ee7c1807
+  - enabled: 1
+    path: Assets/Scenes/tutoria.unity
+    guid: 02acf054858cfaa46b81fd3807f7972d
+  - enabled: 1
+    path: Assets/Scenes/IceMap.unity
+    guid: def7ed299e848424f886b8a77e3f2278
+  - enabled: 1
+    path: Assets/Scenes/timeLimit.unity
+    guid: b6c70c5fc52cc3746869c60dc6320676
+  - enabled: 1
+    path: Assets/Scenes/Dark.unity
+    guid: 0af69651d75a6d1479a581c17adfba32
+  - enabled: 1
+    path: Assets/Scenes/boss.unity
+    guid: 4727a25128e7a364591d671ed136db96
+  - enabled: 1
+    path: Assets/Scenes/vic/Victory.unity
+    guid: a8d16d34bd6886847a229f45d59f4083
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: 466ebca4e064c2b44aa918a7cd04aeb5
+  m_configObjects: {}
