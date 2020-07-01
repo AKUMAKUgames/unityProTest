@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class spawnEnermy : MonoBehaviour
 {
+    public GUISkin newskin;
     public GameObject enermy;
     public float intervar = 1.0f;
      float limit = 0.0f;
@@ -20,8 +21,8 @@ public class spawnEnermy : MonoBehaviour
                 Instantiate(enermy, transform.position, transform.rotation);
             }
             Debug.Log(limit);
-            //15초가 지난후 맵안쪽에 몹을 판정
-            if (limit >= 15.0f)
+            //180초가 지난후 맵안쪽에 몹을 판정
+            if (limit >= 180.0f)
             {   //남아있으면 게임오버
                 if (null != GameObject.FindWithTag("monster"))
                 {
@@ -45,6 +46,7 @@ public class spawnEnermy : MonoBehaviour
         }
     void OnGUI()
     {
-        GUI.Label(new Rect(Screen.width/2 - 40,25, Screen.width * 0.2f, Screen.height * 0.2f),"시간내 모든적 섬멸"+"/"+(16-limit).ToString());
+        GUI.skin = newskin;
+        GUI.Label(new Rect(Screen.width/2 - 40,90, Screen.width * 0.2f, Screen.height * 0.2f),"시간내 모든적 섬멸"+"/"+(181-limit).ToString(),"timer");
     }
 }

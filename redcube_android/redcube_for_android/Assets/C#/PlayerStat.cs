@@ -7,29 +7,35 @@ public class PlayerStat : MonoBehaviour
     public GameObject gun;
     public GameObject machineGun;
     public int damage;
-    
+    public bool pistol;//안드로이드 버전에서 수정됨
+    public bool MG;//안드로이드 버전에서 수정됨
+
     // Start is called before the first frame update
     void Start()
     {
         gun.SetActive(false);
         machineGun.SetActive(false);
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Alpha1))
-        {
-            damage = 15;
-            gun.SetActive(true);
-            machineGun.SetActive(false);
-            
-        }
-        if (Input.GetKeyDown(KeyCode.Alpha2))
-        {
-            damage = 5;
-            gun.SetActive(false);
-            machineGun.SetActive(true);
-        }
+        
+    
+    }
+    public void setPistol()
+    {
+        damage = 15;
+        gun.SetActive(true);
+        machineGun.SetActive(false);
+        MG = false; pistol = true;
+    }
+    public void setMG()
+    {
+        damage = 5;
+        gun.SetActive(false);
+        machineGun.SetActive(true);
+        MG = true; pistol = false;
     }
 }

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{BB097DCA-852B-8169-A4CF-9B7F52C71C11}</ProjectGuid>
+    <ProjectGuid>{BB34A505-B658-2C98-A65D-7E36F58FE6B4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -73,6 +73,13 @@
     <Compile Include="Assets\amusedART\StoneMonster\Script\Animation_Test.cs" />
     <Compile Include="Assets\AurynSky\WinterArena\Scripts\ChestDemo.cs" />
     <Compile Include="Assets\AurynSky\WinterArena\Scripts\Rotator.cs" />
+    <Compile Include="Assets\C#\android\Androidfire.cs" />
+    <Compile Include="Assets\C#\android\androidReload.cs" />
+    <Compile Include="Assets\C#\android\Backbutton.cs" />
+    <Compile Include="Assets\C#\android\joystic.cs" />
+    <Compile Include="Assets\C#\android\mogie.cs" />
+    <Compile Include="Assets\C#\android\mogie2.cs" />
+    <Compile Include="Assets\C#\android\stick2.cs" />
     <Compile Include="Assets\C#\BossGUI.cs" />
     <Compile Include="Assets\C#\bossSc.cs" />
     <Compile Include="Assets\C#\Bullet.cs" />
@@ -238,49 +245,49 @@
     <None Include="Assets\Environment 2\Other\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
     <None Include="Assets\Environment 2\Other\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/Owner/Documents/GitHub/unityProTest/redcube/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/Owner/Documents/GitHub/unityProTest/redcube_android/redcube_for_android/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProGrids">
-      <HintPath>C:/Users/Owner/Documents/GitHub/unityProTest/redcube/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
+      <HintPath>C:/Users/Owner/Documents/GitHub/unityProTest/redcube_android/redcube_for_android/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/Owner/Documents/GitHub/unityProTest/redcube/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/Owner/Documents/GitHub/unityProTest/redcube_android/redcube_for_android/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProGrids.Editor">
-      <HintPath>C:/Users/Owner/Documents/GitHub/unityProTest/redcube/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
+      <HintPath>C:/Users/Owner/Documents/GitHub/unityProTest/redcube_android/redcube_for_android/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/Owner/Documents/GitHub/unityProTest/redcube/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/Owner/Documents/GitHub/unityProTest/redcube_android/redcube_for_android/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/Owner/Documents/GitHub/unityProTest/redcube/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/Owner/Documents/GitHub/unityProTest/redcube_android/redcube_for_android/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/Owner/Documents/GitHub/unityProTest/redcube/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/Owner/Documents/GitHub/unityProTest/redcube_android/redcube_for_android/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/Owner/Documents/GitHub/unityProTest/redcube/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/Owner/Documents/GitHub/unityProTest/redcube_android/redcube_for_android/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
-      <HintPath>C:/Users/Owner/Documents/GitHub/unityProTest/redcube/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+      <HintPath>C:/Users/Owner/Documents/GitHub/unityProTest/redcube_android/redcube_for_android/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/Owner/Documents/GitHub/unityProTest/redcube/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/Owner/Documents/GitHub/unityProTest/redcube_android/redcube_for_android/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>C:/Users/Owner/Documents/GitHub/unityProTest/redcube/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>C:/Users/Owner/Documents/GitHub/unityProTest/redcube_android/redcube_for_android/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
-      <HintPath>C:/Users/Owner/Documents/GitHub/unityProTest/redcube/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+      <HintPath>C:/Users/Owner/Documents/GitHub/unityProTest/redcube_android/redcube_for_android/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>C:/Users/Owner/Documents/GitHub/unityProTest/redcube/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>C:/Users/Owner/Documents/GitHub/unityProTest/redcube_android/redcube_for_android/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/Owner/Documents/GitHub/unityProTest/redcube/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/Owner/Documents/GitHub/unityProTest/redcube_android/redcube_for_android/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/Owner/Documents/GitHub/unityProTest/redcube/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/Owner/Documents/GitHub/unityProTest/redcube_android/redcube_for_android/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
