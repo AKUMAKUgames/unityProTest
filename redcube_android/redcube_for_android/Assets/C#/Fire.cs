@@ -17,7 +17,7 @@ public class Fire : MonoBehaviour
     AudioSource Audio;
     bool shootlife = true; // 총알을 쓸 수 있는 상태다
     int bulletNumber = 30; // 1탄창에 들어있는 총알 수 (나중에 바꾸든가)
-    int bulletToT = 120; // 남은 탄약
+    int bulletToT = 180; // 남은 탄약
     bool loadTIme = true;
     public static int reloadBullet;
 

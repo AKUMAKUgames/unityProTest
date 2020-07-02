@@ -404,7 +404,7 @@ PrefabInstance:
     - target: {fileID: 4407632959968793427, guid: e02bbb0be52703244b414dd2b357ec8c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 70
+      value: 144
       objectReference: {fileID: 0}
     - target: {fileID: 4407632959968793427, guid: e02bbb0be52703244b414dd2b357ec8c,
         type: 3}
@@ -466,6 +466,21 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 322900218}
+    - target: {fileID: 4407632959968793426, guid: e02bbb0be52703244b414dd2b357ec8c,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4407632959968793428, guid: e02bbb0be52703244b414dd2b357ec8c,
+        type: 3}
+      propertyPath: m_Depth
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4407632959968793428, guid: e02bbb0be52703244b414dd2b357ec8c,
+        type: 3}
+      propertyPath: far clip plane
+      value: 150
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e02bbb0be52703244b414dd2b357ec8c, type: 3}
 --- !u!1 &170112381 stripped

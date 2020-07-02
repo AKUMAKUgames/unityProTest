@@ -13,7 +13,7 @@ public class pistolfire : MonoBehaviour
     AudioSource  pistol_Sound;
     bool shootlife = true; // 총알을 쓸 수 있는 상태다
    public  int bulletNumber = 6; // 1탄창에 들어있는 총알 수 (나중에 바꾸든가)
-   public  int bulletToT = 36; // 남은 탄약
+   public  int bulletToT = 42; // 남은 탄약
     bool loadTIme = true;
     static public int reloadBullet;
     public GUISkin newSkin;

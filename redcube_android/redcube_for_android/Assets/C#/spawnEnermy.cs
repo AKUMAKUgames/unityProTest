@@ -12,11 +12,11 @@ public class spawnEnermy : MonoBehaviour
     // Start is called before the first frame update
     IEnumerator Start()
     {   //16초동안 반복
-        while (limit < 16.0f)
+        while (limit < 181.0f)
         {
-            limit = limit + 1.0f;
+            limit += 1.0f;
             //10초가 지난후 몹생성 중지
-            if (limit < 5.0f)
+            if (limit < 10.0f)
             {
                 Instantiate(enermy, transform.position, transform.rotation);
             }
@@ -42,11 +42,11 @@ public class spawnEnermy : MonoBehaviour
     }
     void Update()
         {
-            
-        }
+        
+    }
     void OnGUI()
     {
         GUI.skin = newskin;
-        GUI.Label(new Rect(Screen.width/2 - 40,90, Screen.width * 0.2f, Screen.height * 0.2f),"시간내 모든적 섬멸"+"/"+(181-limit).ToString(),"timer");
+        GUI.Label(new Rect(Screen.width/2 - 40,90, Screen.width * 0.2f, Screen.height * 0.2f),"시간내 모든적 살해"+"/"+(181-(int)limit).ToString(),"timer");
     }
 }
