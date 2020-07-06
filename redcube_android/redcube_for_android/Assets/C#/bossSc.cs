@@ -12,7 +12,7 @@ public class bossSc : MonoBehaviour
     GameObject bossNav;
     public NavMeshAgent nav;
 
-   public static float health = 600.0f;
+   public static float health = 400.0f;
     float timer;
     int waitingTime;
     float pattern = 0.0f;
@@ -22,7 +22,7 @@ public class bossSc : MonoBehaviour
     {
         timer = 0.0f;
         waitingTime = 7;
-        health = 600.0f;
+        health = 400.0f;
         nav = GetComponent<NavMeshAgent>();
         ani = GetComponent<Animator>();
     }

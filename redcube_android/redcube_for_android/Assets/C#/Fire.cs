@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Fire : MonoBehaviour
 {
@@ -16,9 +17,11 @@ public class Fire : MonoBehaviour
     public Texture2D mg;
     AudioSource Audio;
     bool shootlife = true; // 총알을 쓸 수 있는 상태다
-    int bulletNumber = 30; // 1탄창에 들어있는 총알 수 (나중에 바꾸든가)
+    int bulletNumber = 60; // 1탄창에 들어있는 총알 수 (나중에 바꾸든가)
+   
     int bulletToT = 180; // 남은 탄약
     bool loadTIme = true;
+    bool moosin = false;
     public static int reloadBullet;
 
     public GUISkin newSkin;
@@ -26,6 +29,7 @@ public class Fire : MonoBehaviour
     void Start()
     {
         Audio = this.GetComponent<AudioSource>();
+      
     }
 
     // Update is called once per frame
@@ -33,7 +37,12 @@ public class Fire : MonoBehaviour
     {
         ani = this.GetComponent<Animator>();
         reloadBullet = 30 - bulletNumber;//재장전하면 채워질 탄약 수 
-        
+        if (SceneManager.GetActiveScene().name == "boss" && bulletToT <= 0)
+        {
+            bulletToT = 600;
+            moosin = true;
+        }
+
     }
     public void Shootmg()
     {
@@ -115,6 +124,10 @@ public class Fire : MonoBehaviour
     {
         GUI.skin = newSkin;
         GUI.DrawTexture(new Rect(0, Screen.height - Screen.height * 0.2f, Screen.width * 0.2f, Screen.height * 0.2f), mg);
-        GUI.Label(new Rect(Screen.width * 0.2f - 50, Screen.height - 70, Screen.width * 0.2f, Screen.height * 0.2f), bulletNumber + " / " + bulletToT, "thumb");
+        GUI.Label(new Rect(0, 0, Screen.width * 0.1f+150, Screen.height * 0.2f), "기관총 : " + bulletNumber + " / " + bulletToT, "thumb");
+        if (SceneManager.GetActiveScene().name == "boss" && moosin == true)
+        {
+            GUI.Label(new Rect(Screen.width / 2 - 30, 25, Screen.width * 0.2f - 300, Screen.height * 0.2f), "무신의 가호로 총알이 충전!", "thumb");
+        }
     }
 }

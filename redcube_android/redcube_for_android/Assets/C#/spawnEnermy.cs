@@ -47,6 +47,6 @@ public class spawnEnermy : MonoBehaviour
     void OnGUI()
     {
         GUI.skin = newskin;
-        GUI.Label(new Rect(Screen.width/2 - 40,90, Screen.width * 0.2f, Screen.height * 0.2f),"시간내 모든적 살해"+"/"+(181-(int)limit).ToString(),"timer");
+        GUI.Label(new Rect(Screen.width/2 - 40,90, Screen.width * 0.2f, Screen.height * 0.2f),"시간내 모든적 처치"+"/"+(181-(int)limit).ToString(),"timer");
     }
 }

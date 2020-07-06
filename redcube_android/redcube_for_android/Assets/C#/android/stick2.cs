@@ -9,7 +9,7 @@ public RectTransform m_rectJoystick;
 
 public Transform m_trCube;
 float m_fRadius;
-float m_fSpeed = 7.5f;
+float m_fSpeed = 0.9f;
 float m_fSqr = 0f;
 
 Vector3 m_vecMove;
@@ -31,7 +31,7 @@ void Update()
 {
     if (m_bTouch)
     {
-            m_trCube.position += m_vecMove;
+            m_trCube.position += m_vecMove ;
         }
 
 }

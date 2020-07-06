@@ -10,7 +10,7 @@ public class joystic : MonoBehaviour, IPointerDownHandler, IDragHandler, IPointe
 
     public Transform m_trCube;
     float m_fRadius;
-    float m_fSpeed = 500;
+    float m_fSpeed = 300;
     float m_fSqr = 0f;
 
     Vector3 m_vecMove;

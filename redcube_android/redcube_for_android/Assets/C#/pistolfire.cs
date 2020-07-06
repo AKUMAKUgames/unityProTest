@@ -94,7 +94,7 @@ public class pistolfire : MonoBehaviour
     {
         GUI.skin = newSkin;
         GUI.DrawTexture(new Rect(0, Screen.height - Screen.height * 0.2f, Screen.width * 0.2f ,Screen.height*0.2f),pst);
-        GUI.Label(new Rect(Screen.width * 0.2f - 40, Screen.height - 20, Screen.width * 0.2f, Screen.height * 0.2f), bulletNumber + " / " + bulletToT,"thumb");
+GUI.Label(new Rect(0, 0, Screen.width * 0.1f, Screen.height * 0.2f), "권총 : "+bulletNumber + " / " + bulletToT, "thumb");
         
     }
 }

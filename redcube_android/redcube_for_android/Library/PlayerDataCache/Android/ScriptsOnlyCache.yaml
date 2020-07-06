@@ -10,6 +10,7 @@ ScriptsOnlyBuild:
     - EnemyCollision
     - EnermyMove
     - Fire
+    - IceGUI
     - PlayerStat
     - StartScene
     - androidReload
@@ -126,6 +127,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 10666}
     - Class: 114
       Script: {instanceID: 10784}
+    - Class: 114
+      Script: {instanceID: 10900}
     - Class: 114
       Script: {instanceID: 11016}
     - Class: 114
@@ -388,7 +391,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11716}
     - Class: 114
+      Script: {instanceID: 11740}
+    - Class: 114
       Script: {instanceID: 11790}
+    - Class: 114
+      Script: {instanceID: 11830}
     - Class: 114
       Script: {instanceID: 11910}
     - Class: 114
@@ -501,6 +508,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10784}
     - Class: 114
+      Script: {instanceID: 10900}
+    - Class: 114
       Script: {instanceID: 11016}
     - Class: 114
       Script: {instanceID: 11128}
@@ -512,6 +521,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 11524}
     - Class: 114
       Script: {instanceID: 11548}
+    - Class: 114
+      Script: {instanceID: 11554}
     - Class: 114
       Script: {instanceID: 11556}
     - Class: 114
@@ -627,6 +638,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 10666}
     - Class: 114
       Script: {instanceID: 10784}
+    - Class: 114
+      Script: {instanceID: 10900}
     - Class: 114
       Script: {instanceID: 11016}
     - Class: 114
@@ -1664,7 +1677,7 @@ ScriptsOnlyBuild:
     className: CameraMotionBlur
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: d334d58b89c2cf250b9bc889d1bfb7f9
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: IceGUI
@@ -1906,4 +1919,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/boss.unity
   - Assets/Scenes/vic/Victory.unity
   - Assets/Scenes/GameOver.unity
-  playerPath: C:/Users/Owner/Desktop/Application Files/redcube_android_ver_1.1.0.apk
+  playerPath: C:/Users/Owner/Desktop/Application Files/redcube_ver.Android_fixed_test13.apk

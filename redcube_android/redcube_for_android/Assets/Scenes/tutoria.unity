@@ -325,11 +325,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
+  m_ScreenMatchMode: 2
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
@@ -410,7 +410,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2, y: -13}
+  m_AnchoredPosition: {x: -2, y: -359}
   m_SizeDelta: {x: 1600, y: 1000}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1704416928
@@ -435,7 +435,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 80
+    m_FontSize: 25
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
@@ -444,14 +444,14 @@ MonoBehaviour:
     m_AlignByGeometry: 0
     m_RichText: 0
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "\uBB34\uAE30 \uADF8\uB9BC\uC5D0 \uB9DE\uB294 \uBB34\uAE30\uB85C \uAD50\uCCB4\uD569\uB2C8\uB2E4.\n\uC774\uB3D9
-    : \uC870\uC774\uC2A4\uD2F1\n\uBC1C\uC0AC : \uD06C\uB85C\uC2A4 \uD5E4\uC5B4\uBC84\uD2BC\n\uC7AC\uC7A5\uC804
+  m_Text: "\uBB34\uAE30 \uD130\uCE58\uC2DC \uBB34\uAE30\uB97C \uAD50\uCCB4\uD569\uB2C8\uB2E4.\n\uC774\uB3D9
+    : \uC870\uC774\uC2A4\uD2F1\n\uBC1C\uC0AC : \uBC1C\uC0AC \uBC84\uD2BC\n\uC7AC\uC7A5\uC804
     : \uC7AC\uC7A5\uC804 \uBC84\uD2BC\n\uD53C\uC2A4\uD1A8\uC740 \uAC15\uD558\uACE0
     \uB2E8\uBC1C, \uC7AC\uC7A5\uC804 \uBE60\uB984\n\uBA38\uC2E0\uAC74\uC740 \uC57D\uD558\uACE0
-    \uC5F0\uBC1C, \uC7AC\uC7A5\uC804 \uB290\uB9BC\n\n\uC81C\uC791:KSH \uCCAB \uC791\uD488\nver
-    1.1.99.0 Android\n\n\n"
+    \uC5F0\uBC1C, \uC7AC\uC7A5\uC804 \uB290\uB9BC\n\n\uC81C\uC791:KSH \uCCAB \uC791\uD488\nver.T.E.9
+    Android\n\n\n"
 --- !u!222 &1704416929
 CanvasRenderer:
   m_ObjectHideFlags: 0
